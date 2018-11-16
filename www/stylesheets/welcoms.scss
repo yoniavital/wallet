@@ -1,0 +1,133 @@
+@import "colors-and-fonts.scss";
+
+.welcome-container {
+  height: 100%;
+  background: rgb(52,43,159);
+  background: linear-gradient(180deg, rgba(52,43,159,1) 35%, rgba(71,240,139,1) 100%);
+  .lines {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+  }
+  .back-btn {
+    position: absolute;
+    top: 47px;
+    left: 26px;
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .main-logo {
+    width: 60px;
+    height: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding-top: 110px;
+  }
+  .title {
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-family: 'gotham-ultra', sans-serif;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .description {
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-family: 'gotham-light', sans-serif;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+  }
+  .icons {
+    img {
+      width: 40px;
+      height: 40px;
+    }
+    #bitcoin_green {
+      position: absolute;
+      bottom: 22%;
+      right: 10px;
+    }
+    #bitcoin_orange {
+      position: absolute;
+      top: 50%;
+      left: 10px;
+    }
+    #diamond {
+      position: absolute;
+      top: 55%;
+      right: 25%;
+    }
+    #dash {
+      position: absolute;
+      bottom: 25%;
+      left: 20%;
+    }
+  }
+
+  .take-tour-btn {
+    position: absolute;
+    bottom: 50px;
+    width: 90%;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    background-image: -ms-linear-gradient(top, #2E2EDF 0%, #2C2BAC 50%, #2B23A0 100%);
+    background-image: -moz-linear-gradient(top, #2E2EDF 0%, #2C2BAC 50%, #2B23A0 100%);
+    background-image: -o-linear-gradient(top, #2E2EDF 0%, #2C2BAC 50%, #2B23A0 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #2E2EDF), color-stop(50, #2C2BAC), color-stop(100, #2B23A0));
+    background-image: -webkit-linear-gradient(top, #2E2EDF 0%, #2C2BAC 50%, #2B23A0 100%);
+    background-image: linear-gradient(to bottom, #2E2EDF 0%, #2C2BAC 50%, #2B23A0 100%);
+    color: white;
+    text-align: center;
+    font-family: 'gotham-book', sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .skip-btn {
+    position: absolute;
+    bottom: 120px;
+    font-family: 'gotham-light', sans-serif;
+    color: $sa-navy;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+  }
+
+  .power-by {
+    position: absolute;
+    bottom: 3px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    font-family: 'gotham-light', sans-serif;
+    font-size: 11px;
+    color: $sa-navy;
+    opacity: 0.6;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 80px;
+      height: 10px;
+      margin-left: 3px;
+    }
+  }
+}

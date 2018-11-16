@@ -1,0 +1,17 @@
+@font-face { font-family: gotham-light; src: url('../assets/fonts/gotham-light-webfont.ttf'); }
+@font-face { font-family: gotham-medium; src: url('../assets/fonts/gotham-medium-webfont.ttf'); }
+@font-face { font-family: gotham-bold; src: url('../assets/fonts/gotham-bold-webfont.ttf'); }
+@font-face { font-family: gotham-black; src: url('../assets/fonts/gotham-black-webfont.ttf'), url('../assets/fonts/gotham-black-webfont.otf') format("opentype"); }
+@font-face { font-family: gotham-book; src: url('../assets/fonts/gotham-book-webfont.ttf'); }
+@font-face { font-family: gotham-ultra; src: url('../assets/fonts/gotham-ultra.otf') format("opentype");}
+
+$sa-green: #47f08b;
+$sa-navy: #342b9f;
+
+.sa-green {
+    color: $sa-green;
+}
+
+.sa-navy {
+    color: $sa-navy;
+}
