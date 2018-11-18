@@ -1,0 +1,97 @@
+@import "colors-and-fonts.scss";
+
+.onboarding-container {
+  .onboaring-list {
+
+    width: 100%;
+    height: 70%;
+    .onboarding-item {
+      position: relative;
+      .main-img {
+        height: 30%;
+      }
+      .lines {
+        position: absolute;
+        top: 190px;
+        right: 0;
+        width: 153px;
+        height: 91px;
+      }
+      .title {
+        margin-top: 36px;
+        width: 270px;
+        font-family: 'gotham-ultra', sans-serif;
+        font-size: 25px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.2;
+        letter-spacing: normal;
+        text-align: center;
+        color: $sa-navy;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .description {
+        width: 256px;
+        object-fit: contain;
+        font-family: 'gotham-light', sans-serif;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4666666666666666;
+        letter-spacing: normal;
+        text-align: center;
+        color: $sa-navy;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 11px;
+      }
+    }
+  }
+  .take-tour-btn {
+    position: absolute;
+    bottom: 31px;
+    width: 90%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to left, #2e2edf, #2c2bac 51%, #2b23a0);
+    color: white;
+    text-align: center;
+    font-family: 'gotham-book', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+  .power-by {
+    position: absolute;
+    bottom: 0px;
+    height: 20px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    font-family: 'gotham-light', sans-serif;
+    font-size: 11px;
+    color: $sa-navy;
+    background-color: #f5f5f5;
+    opacity: 0.6;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 77px;
+      height: 10px;
+      margin-left: 3px;
+    }
+  }
+}
