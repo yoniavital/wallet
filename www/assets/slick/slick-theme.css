@@ -90,7 +90,7 @@
     display: inline-block;
     height: 20px;
     width: 20px;
-    margin: 0 5px;
+    margin: 0 0;
     padding: 0;
     cursor: pointer; }
     .slick-dots li button {
@@ -117,13 +117,15 @@
         width: 20px;
         height: 20px;
         font-family: "slick";
-        font-size: 6px;
+        font-size: 9px;
         line-height: 20px;
         text-align: center;
-        color: black;
+        color: #342b9f;
         opacity: 0.25;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale; }
     .slick-dots li.slick-active button:before {
-      color: black;
+      color: #342b9f;
       opacity: 0.75; }
+
+/*# sourceMappingURL=slick-theme.css.map */

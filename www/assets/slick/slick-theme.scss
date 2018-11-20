@@ -1,26 +1,18 @@
 @charset "UTF-8";
-
-// Default Variables
-
-// Slick icon entity codes outputs the following
-// "\2190" outputs ascii character "←"
-// "\2192" outputs ascii character "→"
-// "\2022" outputs ascii character "•"
-
-//@import "../../stylesheets/fontawesome/fontawesome";
-
+$sa-green: #47f08b;
+$sa-navy: #342b9f;
 $slick-font-path: "./fonts/" !default;
 $slick-font-family: "slick" !default;
 $slick-loader-path: "./" !default;
 $slick-arrow-color: white !default;
-$slick-dot-color: black !default;
+$slick-dot-color: $sa-navy !default;
 $slick-dot-color-active: $slick-dot-color !default;
 $slick-prev-character: "\2190" !default;
 $slick-prev-character-fa: "\f104" !default;
 $slick-next-character: "\2192" !default;
 $slick-next-character-fa: "\f105" !default;
 $slick-dot-character: "\2022" !default;
-$slick-dot-size: 6px !default;
+$slick-dot-size: 9px !default;
 $slick-opacity-default: 0.75 !default;
 $slick-opacity-on-hover: 1 !default;
 $slick-opacity-not-active: 0.25 !default;
@@ -152,7 +144,7 @@ $slick-opacity-not-active: 0.25 !default;
         display: inline-block;
         height: 20px;
         width: 20px;
-        margin: 0 5px;
+        margin: 0 0;
         padding: 0;
         cursor: pointer;
         button {
