@@ -2,7 +2,7 @@
 var onboardingInterval;
 
 $(document).ready(function(){
-  $( "#body_container" ).load( "components/welcome.html");
+  $( "#body_container" ).load( "components/not-supported.html");
 });
 
 function goTo(pageName) {
