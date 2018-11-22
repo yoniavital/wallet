@@ -1,0 +1,54 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>MobileChain Wallet</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0,  user-scalable=no">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/onboarding.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/not-supported.css">
+  <link rel="stylesheet" type="text/css" href="assets/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+  <script src="assets/slick/slick.min.js"></script>
+  <script type="text/javascript">
+    onboardingInterval = setInterval(createOnboardingList, 5);
+  </script>
+</head>
+<body>
+<div class="onboarding-container">
+  <div class="initial-mask slide-out"></div>
+  <div class="onboaring-list slide-in">
+    <div class="onboarding-item" id="secure_experience">
+      <img class="main-img" src="images/secure-bg.png">
+      <img class="lines" src="images/lines.png">
+      <div class="title">Secure Experience</div>
+      <div class="description">Only you have access to your coins in the Mobilechain wallet</div>
+    </div>
+    <div class="onboarding-item" id="best_way_experience">
+      <img class="main-img" src="images/best-way-bg.png">
+      <img class="lines" src="images/lines.png">
+      <div class="title">The Best Way to Invest</div>
+      <div class="description">Get the best rates and low fees when you buy crypto</div>
+    </div>
+    <div class="onboarding-item" id="payments">
+      <img class="main-img" src="images/payments-bg.png">
+      <img class="lines" src="images/lines.png">
+      <div class="title">Payments in a Snap</div>
+      <div class="description">Using your phone number,  it’s super simple to: Send Money to any Phone Request Money from any Phone</div>
+    </div>
+  </div>
+
+  <div class="take-tour-btn" onclick="goNextSlide()">next</div>
+  <div class="power-by">Powered by <img src="images/logo-mobilechain-white@3x.png"></div>
+</div>
+</body>
+</html>

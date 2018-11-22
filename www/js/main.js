@@ -1,17 +1,6 @@
 // Global variables
 var onboardingInterval;
 
-$(document).ready(function(){
-  $( "#body_container" ).load( "components/not-supported.html");
-});
-
-function goTo(pageName) {
-  $( "#body_container" ).load( "components/" + pageName);
-
-  // This function builds the onboarging list items
-  onboardingInterval = setInterval(createOnboardingList, 5);
-}
-
 function createOnboardingList() {
   list = $(".onboaring-list");
   if(list.length > 0) {
