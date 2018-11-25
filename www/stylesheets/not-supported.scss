@@ -7,7 +7,7 @@
   height: 100%;
   .title {
     padding-top: 45px;
-    font-family: 'roboto-regular', sans-serif;
+    font-family: 'roboto-light', sans-serif;
     color: $sa-gray;
     font-size: 25px;
   }
@@ -16,7 +16,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
-    font-family: 'roboto-regular', sans-serif;
+    font-family: 'roboto-book', sans-serif;
     color: $sa-gray;
     font-size: 16px;
   }
@@ -33,7 +33,12 @@
     background-color: #f5f5f5;
     border: none;
     margin-top: 31px;
+    background-image: url("../images/envelope.png");
+    background-position: 96% center;
+    background-size: 14px;
+    background-repeat: no-repeat;
   }
+
 
   input[type="submit"] {
     background-color: #8e89d7;
