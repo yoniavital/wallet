@@ -1,6 +1,12 @@
 // Global variables
 var onboardingInterval;
 
+$(document).ready(function(){
+  $("body").children().each(function() {
+    $(this).html($(this).html().replace(/&#8232;/g," "));
+  });
+});
+
 function createOnboardingList() {
   list = $(".onboaring-list");
   if(list.length > 0) {
