@@ -1,0 +1,13 @@
+@import "colors-and-fonts.scss";
+
+.help-container {
+  margin-top: 18px;
+  width: 82%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'gotham-book', sans-serif;
+  color: $sa-navy;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0px;
+}
