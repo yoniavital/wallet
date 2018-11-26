@@ -1,0 +1,170 @@
+@font-face {
+  font-family: gotham-light;
+  src: url("../assets/fonts/gotham-light-webfont.ttf"); }
+@font-face {
+  font-family: gotham-medium;
+  src: url("../assets/fonts/gotham-medium-webfont.ttf"); }
+@font-face {
+  font-family: gotham-bold;
+  src: url("../assets/fonts/gotham-bold-webfont.ttf"); }
+@font-face {
+  font-family: gotham-black;
+  src: url("../assets/fonts/gotham-black-webfont.ttf"), url("../assets/fonts/gotham-black-webfont.otf") format("opentype"); }
+@font-face {
+  font-family: gotham-book;
+  src: url("../assets/fonts/gotham-book-webfont.ttf"); }
+@font-face {
+  font-family: gotham-ultra;
+  src: url("../assets/fonts/gotham-ultra.otf") format("opentype"); }
+@font-face {
+  font-family: roboto-black;
+  src: url("../assets/fonts/Roboto-Black.ttf"); }
+@font-face {
+  font-family: roboto-bold;
+  src: url("../assets/fonts/Roboto-Bold.ttf"); }
+@font-face {
+  font-family: roboto-light;
+  src: url("../assets/fonts/Roboto-Light.ttf"); }
+@font-face {
+  font-family: roboto-medium;
+  src: url("../assets/fonts/Roboto-Medium.ttf"); }
+@font-face {
+  font-family: roboto-regular;
+  src: url("../assets/fonts/Roboto-Regular.ttf"); }
+@font-face {
+  font-family: roboto-thin;
+  src: url("../assets/fonts/Roboto-Thin.ttf"); }
+@font-face {
+  font-family: roboto-condensed;
+  src: url("../assets/fonts/RobotoCondensed-Regular.ttf"); }
+@font-face {
+  font-family: roboto-condensed-bold;
+  src: url("../assets/fonts/RobotoCondensed-Bold.ttf"); }
+@font-face {
+  font-family: roboto-condensed-bold;
+  src: url("../assets/fonts/RobotoCondensed-Bold.ttf"); }
+.sa-green {
+  color: #47f08b; }
+
+.sa-navy {
+  color: #342b9f; }
+
+.welcome-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #342b9f;
+  background-image: linear-gradient(166deg, #342b9f 22%, #47f08b); }
+  .welcome-container .lines {
+    width: 153px;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    right: 0; }
+  .welcome-container .back-btn {
+    position: absolute;
+    top: 47px;
+    left: 23px; }
+    .welcome-container .back-btn img {
+      width: 16px;
+      height: 16px; }
+  .welcome-container .main-logo {
+    width: 46px;
+    height: 49px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding-top: 113px; }
+  .welcome-container .title {
+    width: 271px;
+    text-align: center;
+    color: white;
+    font-family: 'gotham-black', sans-serif;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    margin-top: 4px; }
+  .welcome-container .description {
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-family: 'gotham-light', sans-serif;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.4666666666666666;
+    letter-spacing: normal;
+    margin-top: 10px; }
+  .welcome-container .icons img {
+    width: 40px;
+    height: 40px; }
+  .welcome-container .icons #bitcoin_green {
+    position: absolute;
+    bottom: 19%;
+    right: 15px; }
+  .welcome-container .icons #bitcoin_orange {
+    position: absolute;
+    top: 53%;
+    left: 10px; }
+  .welcome-container .icons #diamond {
+    position: absolute;
+    top: 60%;
+    right: 21%; }
+  .welcome-container .icons #dash {
+    position: absolute;
+    bottom: 20%;
+    left: 20%; }
+  .welcome-container .take-tour-btn {
+    position: absolute;
+    bottom: 31px;
+    width: 90%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to left, #2e2edf, #2c2bac 51%, #2b23a0);
+    color: white;
+    text-align: center;
+    font-family: 'gotham-book', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; }
+  .welcome-container .skip-btn {
+    position: absolute;
+    bottom: 97px;
+    font-family: 'gotham', sans-serif;
+    color: #342b9f;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%; }
+  .welcome-container .power-by {
+    position: absolute;
+    bottom: 3px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    font-family: 'gotham-light', sans-serif;
+    font-size: 11px;
+    color: #342b9f;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .welcome-container .power-by img {
+      width: 77px;
+      height: 10px;
+      margin-left: 3px; }
+
+/*# sourceMappingURL=welcome.css.map */
