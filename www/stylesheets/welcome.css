@@ -40,9 +40,6 @@
 @font-face {
   font-family: roboto-condensed-bold;
   src: url("../assets/fonts/RobotoCondensed-Bold.ttf"); }
-@font-face {
-  font-family: roboto-condensed-bold;
-  src: url("../assets/fonts/RobotoCondensed-Bold.ttf"); }
 .sa-green {
   color: #47f08b; }
 
@@ -146,7 +143,8 @@
     font-size: 14px;
     text-transform: uppercase;
     text-align: center;
-    width: 100%; }
+    width: 100%;
+    text-decoration: none; }
   .welcome-container .power-by {
     position: absolute;
     bottom: 3px;

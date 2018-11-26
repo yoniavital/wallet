@@ -2,42 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9609e12-7e1f-423e-8204-c636d09a7e26" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/wallet-v0.21.zip" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/assets/fonts/font-awesome/css/font-awesome-all.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/assets/fonts/font-awesome/css/font-awesome-all.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/assets/fonts/font-awesome/webfonts/fa-brands-400.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/assets/fonts/font-awesome/webfonts/fa-brands-400.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/assets/fonts/font-awesome/webfonts/fa-brands-400.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/assets/fonts/font-awesome/webfonts/fa-brands-400.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/assets/fonts/font-awesome/webfonts/fa-brands-400.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/assets/fonts/font-awesome/webfonts/fa-regular-400.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/assets/fonts/font-awesome/webfonts/fa-regular-400.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/assets/fonts/font-awesome/webfonts/fa-regular-400.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/assets/fonts/font-awesome/webfonts/fa-regular-400.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/assets/fonts/font-awesome/webfonts/fa-regular-400.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/assets/fonts/font-awesome/webfonts/fa-solid-900.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/assets/fonts/font-awesome/webfonts/fa-solid-900.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/assets/fonts/font-awesome/webfonts/fa-solid-900.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/assets/fonts/font-awesome/webfonts/fa-solid-900.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/assets/fonts/font-awesome/webfonts/fa-solid-900.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/assets/slick/slick-theme.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/contact-us.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/stylesheets/about-us.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/stylesheets/about-us.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/stylesheets/colors-and-fonts.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/stylesheets/colors-and-fonts.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/stylesheets/contact-us.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/stylesheets/contact-us.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/stylesheets/contact-us.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/stylesheets/main.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/stylesheets/main.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/stylesheets/not-supported.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/stylesheets/not-supported.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/stylesheets/onboarding.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/stylesheets/onboarding.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/stylesheets/welcome.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/www/stylesheets/welcome.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/help.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/www/stylesheets/help.scss" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/www/js/main.js" afterPath="$PROJECT_DIR$/www/js/main.js" />
+      <change beforePath="$PROJECT_DIR$/www/onboarding.html" afterPath="$PROJECT_DIR$/www/onboarding.html" />
+      <change beforePath="$PROJECT_DIR$/www/stylesheets/welcome.css" afterPath="$PROJECT_DIR$/www/stylesheets/welcome.css" />
+      <change beforePath="$PROJECT_DIR$/www/stylesheets/welcome.css.map" afterPath="$PROJECT_DIR$/www/stylesheets/welcome.css.map" />
+      <change beforePath="$PROJECT_DIR$/www/stylesheets/welcome.scss" afterPath="$PROJECT_DIR$/www/stylesheets/welcome.scss" />
+      <change beforePath="$PROJECT_DIR$/www/welcome.html" afterPath="$PROJECT_DIR$/www/welcome.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,21 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="about-us.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/stylesheets/about-us.scss">
+      <file leaf-file-name="welcome.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/welcome.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+            <state relative-caret-position="433">
+              <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="onboarding.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/stylesheets/onboarding.scss">
+      <file leaf-file-name="onboarding.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/onboarding.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="83" selection-end-column="26" />
+            <state relative-caret-position="460">
+              <caret line="48" column="43" lean-forward="false" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -74,8 +47,8 @@
       <file leaf-file-name="about-us.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/about-us.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="35" selection-end-column="8" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -84,68 +57,68 @@
       <file leaf-file-name="not-supported.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/stylesheets/not-supported.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="21" />
+            <state relative-caret-position="405">
+              <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="not-supported.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/not-supported.html">
+      <file leaf-file-name="about-us.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/stylesheets/about-us.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="18" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact-us.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="welcome.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/stylesheets/welcome.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="107" column="23" lean-forward="true" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact-us.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/stylesheets/contact-us.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="60" column="7" lean-forward="true" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
+            <state relative-caret-position="496">
+              <caret line="69" column="25" lean-forward="true" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact-us.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/contact-us.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colors-and-fonts.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/stylesheets/colors-and-fonts.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="font-awesome-all.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/assets/fonts/font-awesome/css/font-awesome-all.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="3973" column="21" lean-forward="true" selection-start-line="3973" selection-start-column="21" selection-end-line="3973" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="472">
+              <caret line="51" column="3" lean-forward="true" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="help.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/help.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="help.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/stylesheets/help.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -199,19 +172,21 @@
         <option value="$PROJECT_DIR$/www/stylesheets/welcoms.scss" />
         <option value="$PROJECT_DIR$/www/components/not-supported.html" />
         <option value="$PROJECT_DIR$/www/index.html" />
-        <option value="$PROJECT_DIR$/www/welcome.html" />
         <option value="$PROJECT_DIR$/www/not-supported.html" />
-        <option value="$PROJECT_DIR$/www/stylesheets/welcome.scss" />
         <option value="$PROJECT_DIR$/www/stylesheets/onboarding.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/www/onboarding.html" />
         <option value="$PROJECT_DIR$/www/about-us.html" />
         <option value="$PROJECT_DIR$/www/stylesheets/about-us.scss" />
-        <option value="$PROJECT_DIR$/www/js/main.js" />
         <option value="$PROJECT_DIR$/www/stylesheets/not-supported.scss" />
         <option value="$PROJECT_DIR$/www/stylesheets/colors-and-fonts.scss" />
         <option value="$PROJECT_DIR$/www/contact-us.html" />
         <option value="$PROJECT_DIR$/www/stylesheets/contact-us.scss" />
+        <option value="$PROJECT_DIR$/www/help.html" />
+        <option value="$PROJECT_DIR$/www/stylesheets/help.scss" />
+        <option value="$PROJECT_DIR$/www/welcome.html" />
+        <option value="$PROJECT_DIR$/www/stylesheets/welcome.scss" />
+        <option value="$PROJECT_DIR$/www/onboarding.html" />
+        <option value="$PROJECT_DIR$/www/js/main.js" />
       </list>
     </option>
   </component>
@@ -221,11 +196,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1492" />
-    <option name="y" value="54" />
-    <option name="width" value="1841" />
-    <option name="height" value="1019" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1440" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -393,14 +368,21 @@
       <option name="project" value="LOCAL" />
       <updated>1543169201793</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="contact us">
+      <created>1543267102052</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1543267102052</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40261000" />
+    <option name="totallyTimeSpent" value="43703000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="1440" y="23" width="1920" height="1057" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1864139" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -448,15 +430,14 @@
     <MESSAGE value="restructure project + adding animation" />
     <MESSAGE value="about us page" />
     <MESSAGE value="fixed Hanan rejects" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed Hanan rejects" />
+    <MESSAGE value="contact us" />
+    <option name="LAST_COMMIT_MESSAGE" value="contact us" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/images/drawable-xxhdpi/dash.png" />
-    <entry file="file://$PROJECT_DIR$/www/images/drawable-xxhdpi/eth.png" />
     <entry file="file://$PROJECT_DIR$/www/images/drawable-xxhdpi/lines.png" />
     <entry file="file://$PROJECT_DIR$/www/images/drawable-xxhdpi/logo_mobilechain_white.png" />
     <entry file="file://$PROJECT_DIR$/www/images/drawable-xxhdpi/rectangle.png" />
@@ -579,26 +560,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/stylesheets/welcome.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1095">
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/onboarding.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="56" lean-forward="false" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
           <folding />
         </state>
       </provider>
@@ -616,42 +581,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/welcome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="43" column="7" lean-forward="false" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/stylesheets/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="538">
           <caret line="50" column="1" lean-forward="false" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/about-us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="35" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/stylesheets/about-us.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -668,14 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="31" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/stylesheets/not-supported.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -704,10 +629,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/about-us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/stylesheets/contact-us.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="60" column="7" lean-forward="true" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
+        <state relative-caret-position="496">
+          <caret line="69" column="25" lean-forward="true" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/help.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/stylesheets/about-us.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/stylesheets/not-supported.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/stylesheets/help.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/stylesheets/welcome.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="107" column="23" lean-forward="true" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/onboarding.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="48" column="43" lean-forward="false" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="51" column="3" lean-forward="true" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
           <folding />
         </state>
       </provider>
