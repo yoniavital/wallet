@@ -1,0 +1,60 @@
+@font-face {
+  font-family: gotham-light;
+  src: url("../assets/fonts/gotham-light-webfont.ttf"); }
+@font-face {
+  font-family: gotham-medium;
+  src: url("../assets/fonts/gotham-medium-webfont.ttf"); }
+@font-face {
+  font-family: gotham-bold;
+  src: url("../assets/fonts/gotham-bold-webfont.ttf"); }
+@font-face {
+  font-family: gotham-black;
+  src: url("../assets/fonts/gotham-black-webfont.ttf"), url("../assets/fonts/gotham-black-webfont.otf") format("opentype"); }
+@font-face {
+  font-family: gotham-book;
+  src: url("../assets/fonts/gotham-book-webfont.ttf"); }
+@font-face {
+  font-family: gotham-ultra;
+  src: url("../assets/fonts/gotham-ultra.otf") format("opentype"); }
+@font-face {
+  font-family: roboto-black;
+  src: url("../assets/fonts/Roboto-Black.ttf"); }
+@font-face {
+  font-family: roboto-bold;
+  src: url("../assets/fonts/Roboto-Bold.ttf"); }
+@font-face {
+  font-family: roboto-light;
+  src: url("../assets/fonts/Roboto-Light.ttf"); }
+@font-face {
+  font-family: roboto-medium;
+  src: url("../assets/fonts/Roboto-Medium.ttf"); }
+@font-face {
+  font-family: roboto-regular;
+  src: url("../assets/fonts/Roboto-Regular.ttf"); }
+@font-face {
+  font-family: roboto-thin;
+  src: url("../assets/fonts/Roboto-Thin.ttf"); }
+@font-face {
+  font-family: roboto-condensed;
+  src: url("../assets/fonts/RobotoCondensed-Regular.ttf"); }
+@font-face {
+  font-family: roboto-condensed-bold;
+  src: url("../assets/fonts/RobotoCondensed-Bold.ttf"); }
+.sa-green {
+  color: #47f08b; }
+
+.sa-navy {
+  color: #342b9f; }
+
+.help-container {
+  margin-top: 18px;
+  width: 82%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'gotham-book', sans-serif;
+  color: #342b9f;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0px; }
+
+/*# sourceMappingURL=help.css.map */
