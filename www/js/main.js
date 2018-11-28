@@ -1,5 +1,6 @@
 // Global variables
 var onboardingInterval;
+var currentSlickSlide = 0;
 
 $(document).ready(function(){
   $("body").children().each(function() {
@@ -23,7 +24,8 @@ function createOnboardingList() {
   }
 }
 
-$(this).on('afterChange', function(event, slick, currentSlide) {
+  $(this).on('afterChange', function(event, slick, currentSlide) {
+    currentSlickSlide = currentSlide;
   if (currentSlide === 2) {
     $("#submit_btn").attr("onclick","exitTour()");
     $("#submit_btn").text("Finish Tour");
@@ -34,8 +36,11 @@ $(this).on('afterChange', function(event, slick, currentSlide) {
 })
 
 function goNextSlide() {
-  console.log("next");
   $(".onboaring-list").slick('slickNext');
+}
+
+function goPreviousSlide() {
+  $(".onboaring-list").slick('slickPrev');
 }
 
 function pageBack() {
@@ -45,7 +50,11 @@ function pageBack() {
       window.location.href = "mobilechain://exitwallet";
       break;
     case "onboarding.html":
-      window.location.href = "welcome.html";
+      if (currentSlickSlide > 0) {
+        goPreviousSlide()
+      } else {
+        window.location.href = "welcome.html";
+      }
       break;
     default:
       break;
