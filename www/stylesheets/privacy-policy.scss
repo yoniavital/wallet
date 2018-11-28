@@ -1,0 +1,60 @@
+@import "colors-and-fonts.scss";
+
+.privacy-container {
+  .title {
+    margin-top: 20px;
+    width: 82%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'gotham-ultra', sans-serif;
+    font-size: 20px;
+    color: $sa-navy;
+  }
+  .subtitle {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'gotham-bold', sans-serif;
+    font-size: 17px;
+    color: $sa-green;
+  }
+  p {
+    width: 82%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'gotham-book', sans-serif;
+    color: $sa-navy;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0px;
+  }
+  a {
+    color: $sa-green;
+    text-decoration: none;
+  }
+  table {
+    margin-top: 15px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    color: $sa-navy;
+    border-collapse: collapse;
+    border: solid 1px $sa-navy;
+    font-family: 'gotham-book', sans-serif;
+    color: $sa-navy;
+    font-size: 14px;
+    word-break: break-word;
+    tr {
+      border: solid 1px $sa-navy;
+    }
+    th:first-child {
+      width: 20%;
+    }
+    td {
+      padding: 5px;
+    }
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+}
