@@ -40,9 +40,6 @@
 @font-face {
   font-family: roboto-condensed-bold;
   src: url("../assets/fonts/RobotoCondensed-Bold.ttf"); }
-@font-face {
-  font-family: roboto-condensed-bold;
-  src: url("../assets/fonts/RobotoCondensed-Bold.ttf"); }
 .sa-green {
   color: #47f08b; }
 
@@ -62,49 +59,54 @@
     z-index: 3;
     background: #342b9f;
     background-image: linear-gradient(166deg, #342b9f 22%, #47f08b); }
-  .onboarding-container .onboaring-list {
+  .onboarding-container .swiper-container {
     width: 100%;
     height: 82%; }
-    .onboarding-container .onboaring-list .onboarding-item {
-      position: relative; }
-      .onboarding-container .onboaring-list .onboarding-item .main-img {
-        height: 270px;
-        width: 100%; }
-      .onboarding-container .onboaring-list .onboarding-item .lines {
-        position: absolute;
-        top: 190px;
-        right: 0;
-        width: 153px;
-        height: 91px; }
-      .onboarding-container .onboaring-list .onboarding-item .title {
-        margin-top: 34px;
-        width: 270px;
-        font-family: 'gotham-ultra', sans-serif;
-        font-size: 25px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.2;
-        letter-spacing: normal;
-        text-align: center;
-        color: #342b9f;
-        margin-left: auto;
-        margin-right: auto; }
-      .onboarding-container .onboaring-list .onboarding-item .description {
-        width: 256px;
-        object-fit: contain;
-        font-family: 'gotham-light', sans-serif;
-        font-size: 15px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.4666666666666666;
-        letter-spacing: normal;
-        text-align: center;
-        color: #342b9f;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20px; }
+    .onboarding-container .swiper-container .swiper-slide .main-img {
+      height: 270px;
+      width: 100%; }
+    .onboarding-container .swiper-container .swiper-slide .lines {
+      position: absolute;
+      top: 190px;
+      right: 0;
+      width: 153px;
+      height: 91px; }
+    .onboarding-container .swiper-container .swiper-slide .title {
+      margin-top: 34px;
+      width: 270px;
+      font-family: 'gotham-ultra', sans-serif;
+      font-size: 25px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.2;
+      letter-spacing: normal;
+      text-align: center;
+      color: #342b9f;
+      margin-left: auto;
+      margin-right: auto; }
+    .onboarding-container .swiper-container .swiper-slide .description {
+      width: 256px;
+      object-fit: contain;
+      font-family: 'gotham-light', sans-serif;
+      font-size: 15px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.4666666666666666;
+      letter-spacing: normal;
+      text-align: center;
+      color: #342b9f;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px; }
+    .onboarding-container .swiper-container .swiper-pagination-bullet {
+      width: 7px !important;
+      height: 7px !important;
+      background-color: #8e89d7;
+      opacity: 1 !important; }
+    .onboarding-container .swiper-container .swiper-pagination-bullet-active-main {
+      background-color: #342b9f; }
   .onboarding-container .take-tour-btn {
     position: absolute;
     bottom: 31px;
