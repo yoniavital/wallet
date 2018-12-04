@@ -14,11 +14,10 @@
     background: rgb(52,43,159);
     background-image: linear-gradient(166deg, #342b9f 22%, #47f08b);
   }
-  .onboaring-list {
+  .swiper-container {
     width: 100%;
     height: 82%;
-    .onboarding-item {
-      position: relative;
+    .swiper-slide {
       .main-img {
         height: 270px;
         width: 100%;
@@ -61,6 +60,15 @@
         margin-right: auto;
         margin-top: 20px;
       }
+    }
+    .swiper-pagination-bullet {
+      width: 7px!important;
+      height: 7px!important;
+      background-color: #8e89d7;
+      opacity: 1!important;
+    }
+    .swiper-pagination-bullet-active-main {
+      background-color: $sa-navy;
     }
   }
   .take-tour-btn {
