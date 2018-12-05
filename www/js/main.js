@@ -21,7 +21,7 @@ $(document).ready(function(){
     var mySwiper = new Swiper('.swiper-container', {
       pagination: {
         el: '.swiper-pagination',
-        dynamicBullets: true,
+        dynamicBullets: false,
       },
       on: {
         reachEnd: function () {
