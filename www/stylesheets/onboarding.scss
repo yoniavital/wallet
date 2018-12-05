@@ -65,10 +65,10 @@
       width: 7px!important;
       height: 7px!important;
       background-color: #8e89d7;
-      opacity: 1!important;
+      opacity: .9!important;
     }
-    .swiper-pagination-bullet-active-main {
-      background-color: $sa-navy;
+    .swiper-pagination-bullet-active {
+      background: $sa-navy;
     }
   }
   .take-tour-btn {
