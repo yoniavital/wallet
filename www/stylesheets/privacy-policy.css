@@ -46,48 +46,52 @@
 .sa-navy {
   color: #342b9f; }
 
-.not-supported-container {
-  text-align: center;
-  background-color: #fafafa;
-  width: 100%;
-  height: 100%;
-  position: absolute; }
-  .not-supported-container .title {
-    padding-top: 45px;
-    font-family: 'roboto-light', sans-serif;
-    color: #4d4d4d;
-    font-size: 25px; }
-  .not-supported-container .description {
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
-    font-family: 'roboto-book', sans-serif;
-    color: #4d4d4d;
-    font-size: 16px; }
-  .not-supported-container input {
-    width: 73%;
-    height: 40px;
-    font-size: 14px;
-    text-align: center;
-    border: none;
-    padding-left: 2%; }
-  .not-supported-container input[type="email"] {
-    font-family: 'gotham-book', sans-serif;
-    color: #a4a4a4;
-    background-color: #f5f5f5;
-    margin-top: 31px;
-    background-image: url("../images/envelope.png");
-    background-position: 96% center;
-    background-size: 14px;
-    background-repeat: no-repeat;
-    text-align: left; }
-  .not-supported-container ::placeholder {
-    text-align: center; }
-  .not-supported-container input[type="submit"] {
-    background-color: #8e89d7;
-    color: white;
-    font-family: 'gotham-medium', sans-serif;
-    margin-top: 15px; }
+.privacy-container .title {
+  margin-top: 20px;
+  width: 82%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'gotham-ultra', sans-serif;
+  font-size: 20px;
+  color: #342b9f; }
+.privacy-container .subtitle {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'gotham-bold', sans-serif;
+  font-size: 17px;
+  color: #47f08b; }
+.privacy-container p {
+  width: 82%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'gotham-book', sans-serif;
+  color: #342b9f;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0px; }
+.privacy-container a {
+  color: #47f08b;
+  text-decoration: none; }
+.privacy-container table {
+  margin-top: 15px;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  color: #342b9f;
+  border-collapse: collapse;
+  border: solid 1px #342b9f;
+  font-family: 'gotham-book', sans-serif;
+  color: #342b9f;
+  font-size: 14px;
+  word-break: break-word; }
+  .privacy-container table tr {
+    border: solid 1px #342b9f; }
+  .privacy-container table th:first-child {
+    width: 20%; }
+  .privacy-container table td {
+    padding: 5px; }
+.privacy-container table, .privacy-container th, .privacy-container td {
+  border: 1px solid black; }
 
-/*# sourceMappingURL=not-supported.css.map */
+/*# sourceMappingURL=privacy-policy.css.map */
