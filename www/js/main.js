@@ -17,7 +17,7 @@ $(document).ready(function(){
     $(this).html($(this).html().replace(/&#8232;/g," "));
   });
   var currentPage = document.location.href.match(/[^\/]+$/)[0];
-  if (currentPage === "onboarding.html") {
+  if (currentPage.indexOf("onboarding.html") !== -1 ) {
     var mySwiper = new Swiper('.swiper-container', {
       pagination: {
         el: '.swiper-pagination',
@@ -26,11 +26,11 @@ $(document).ready(function(){
       on: {
         reachEnd: function () {
           $("#submit_btn").attr("onclick", "exitTour()");
-          $("#submit_btn").text("Finish Tour");
+          //$("#submit_btn").text("Finish Tour");
         },
         slidePrevTransitionEnd: function () {
           $("#submit_btn").attr("onclick", "goNextSlide()");
-          $("#submit_btn").text("Next")
+          //$("#submit_btn").text("Next")
         },
       }
     });

@@ -23,11 +23,12 @@
   }
 
   input {
-    width: 75%;
+    width: 73%;
     height: 40px;
     font-size: 14px;
     text-align: center;
     border: none;
+    padding-left: 2%;
   }
   input[type="email"] {
     font-family: 'gotham-book', sans-serif;
@@ -38,6 +39,10 @@
     background-position: 96% center;
     background-size: 14px;
     background-repeat: no-repeat;
+    text-align: left;
+  }
+  ::placeholder {
+    text-align: center;
   }
 
 

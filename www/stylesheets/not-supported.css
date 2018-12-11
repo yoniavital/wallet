@@ -40,9 +40,6 @@
 @font-face {
   font-family: roboto-condensed-bold;
   src: url("../assets/fonts/RobotoCondensed-Bold.ttf"); }
-@font-face {
-  font-family: roboto-condensed-bold;
-  src: url("../assets/fonts/RobotoCondensed-Bold.ttf"); }
 .sa-green {
   color: #47f08b; }
 
@@ -69,11 +66,12 @@
     color: #4d4d4d;
     font-size: 16px; }
   .not-supported-container input {
-    width: 75%;
+    width: 73%;
     height: 40px;
     font-size: 14px;
     text-align: center;
-    border: none; }
+    border: none;
+    padding-left: 2%; }
   .not-supported-container input[type="email"] {
     font-family: 'gotham-book', sans-serif;
     color: #a4a4a4;
@@ -82,7 +80,10 @@
     background-image: url("../images/envelope.png");
     background-position: 96% center;
     background-size: 14px;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    text-align: left; }
+  .not-supported-container ::placeholder {
+    text-align: center; }
   .not-supported-container input[type="submit"] {
     background-color: #8e89d7;
     color: white;
